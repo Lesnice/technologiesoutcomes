@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: Terraform AWS Workflow
 
 on:
@@ -40,3 +41,6 @@ jobs:
         echo "Bye Bye Afi"
         terraform plan -destroy
       working-directory: ${{ github.event.inputs.tfpath }}
+=======
+
+>>>>>>> 3e88cdfc9260fc239083c3a1d446082f8ecb2fe3
